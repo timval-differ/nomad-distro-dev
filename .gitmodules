@@ -1,3 +1,6 @@
 [submodule "packages/nomad-FAIR"]
 	path = packages/nomad-FAIR
 	url = https://gitlab.mpcdf.mpg.de/nomad-lab/nomad-FAIR.git
+[submodule "packages/differ-pld4energy-schemas"]
+	path = packages/differ-pld4energy-schemas
+	url = https://github.com/timval-differ/differ-pld4energy-schemas.git
