@@ -4,3 +4,6 @@
 [submodule "packages/differ-pld4energy-schemas"]
 	path = packages/differ-pld4energy-schemas
 	url = https://github.com/timval-differ/differ-pld4energy-schemas.git
+[submodule "packages/nomad-material-processing"]
+	path = packages/nomad-material-processing
+	url = https://github.com/FAIRmat-NFDI/nomad-material-processing.git
