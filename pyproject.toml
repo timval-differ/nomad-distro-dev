@@ -7,7 +7,6 @@ requires-python = ">=3.10"
 license = { file = "LICENSE" }
 dependencies = [
     "differ-pld4e-schemas",
-    "differ-pld4energy-dashboard",
     "nomad-gui==2.0.0rc2",
     "nomad-lab[infrastructure]>=1.4.3",
     "nomad-material-processing",
@@ -24,7 +23,6 @@ nomad-external-eln-integrations = { git = "https://github.com/FAIRmat-NFDI/nomad
 nomad-lab = { workspace = true }
 nomad-material-processing = { workspace = true }
 differ-pld4e-schemas = { workspace = true }
-differ-pld4energy-dashboard = { workspace = true }
 
 [tool.uv]
 extra-index-url = [

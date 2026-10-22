@@ -7,6 +7,3 @@
 [submodule "packages/nomad-material-processing"]
 	path = packages/nomad-material-processing
 	url = https://github.com/FAIRmat-NFDI/nomad-material-processing.git
-[submodule "packages/differ-pld4energy-dashboard"]
-	path = packages/differ-pld4energy-dashboard
-	url = https://github.com/timval-differ/differ-pld4energy-dashboard.git
