@@ -8,7 +8,7 @@ license = { file = "LICENSE" }
 dependencies = [
     "differ-pld4e-schemas",
     "nomad-gui==2.0.0rc2",
-    "nomad-lab[infrastructure]>=1.4.3",
+    "nomad-lab[infrastructure]==2.0",
     "nomad-material-processing",
 ]
 
@@ -20,9 +20,9 @@ nomad-aitoolkit = { git = "https://github.com/FAIRmat-NFDI/nomad-aitoolkit.git",
 nomad-porous-materials = { git = "https://github.com/FAIRmat-NFDI/nomad-porous-materials.git", rev = "522f4a3208077f534f1c5e886527ee2104283d0b" }
 perovskite-solar-cell-database = { git = "https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git", tag = "v0.1.1" }
 nomad-external-eln-integrations = { git = "https://github.com/FAIRmat-NFDI/nomad-external-eln-integrations", rev = "de8050effb510fc2be0974cb08d44b475791b0a5" }
-nomad-lab = { workspace = true }
 nomad-material-processing = { workspace = true }
 differ-pld4e-schemas = { workspace = true }
+nomad-lab = { workspace = true }
 
 [tool.uv]
 extra-index-url = [
